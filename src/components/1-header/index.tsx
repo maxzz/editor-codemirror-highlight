@@ -9,11 +9,11 @@ export function Section0_Header() {
                     <IconAppLogo className="w-7 h-7 stroke-none fill-slate-600 -rotate-90" />
                 </div>
 
-                <div className="text-2xl font-extralight tracking-tighter text-blue-600">
-                    CodeMirror
-                </div>
                 <div className="text-2xl font-extralight tracking-tighter text-slate-600">
-                    language highlighter
+                    Language highlighter with
+                </div>
+                <div className="text-2xl font-extralight tracking-tighter text-blue-600">
+                    CodeMirror and Lezer AST
                 </div>
             </div>
 
