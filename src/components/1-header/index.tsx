@@ -10,10 +10,10 @@ export function Section0_Header() {
                 </div>
 
                 <div className="text-2xl font-extralight tracking-tighter text-blue-600">
-                    shradcn
+                    CodeMirror
                 </div>
                 <div className="text-2xl font-extralight tracking-tighter text-slate-600">
-                    components template
+                    language highlighter
                 </div>
             </div>
 
