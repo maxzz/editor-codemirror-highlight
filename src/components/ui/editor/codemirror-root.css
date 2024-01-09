@@ -7,17 +7,17 @@
     --token-comment-color: #2f9d00;
     --token-definition-color: #267f99;
     --token-local-color: #555555;
-    --token-keyword-color: #af00db;
+    --token-keyword-color: #0000ff;
     --token-meta-color: #8237bb;
-    --token-number-color: #ffdc7a;
+    --token-number-color: #098658;
     --token-operator-color: #0274ff;
     --token-propertyName-color: #2286ff;
-    --token-punctuation-color: #dcadff;
+    --token-punctuation-color: #319331;
     --token-string-color: #a31515;
     --token-string2-color: #a31515;
     --token-typeName-color: #384d89;
-    --token-variableName-color: #c67bff;
-    --token-variableName2-color: #c67bff;
+    --token-variableName-color: #0070c1;
+    --token-variableName2-color: #0070c1;
 }
 
 .dark {

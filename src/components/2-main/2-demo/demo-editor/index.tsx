@@ -3,7 +3,7 @@ import { Example } from "./example";
 
 type AnyType = string | number | boolean | null | undefined;
 
-const CODE = `
+const CODE_ORG = `
 import {
   ImperativePanelHandle,
   Panel,
@@ -29,6 +29,33 @@ const collapsePanel = () => {
   <PanelResizeHandle />
   <Panel>
     right
+  </Panel>
+</PanelGroup>
+`;
+
+const CODE = `
+import {                    // tok-keyword; tok-punctuation
+    ImperativePanelHandle,  // tok-variableName tok-definition
+} from "react-resizable-panels"; // tok-string
+
+const ref =                 // tok-variableName tok-definition
+    useRef<ImperativePanelHandle> // tok-variableName; tok-typeName
+        (null);             // tok-punctuation; tok-variableName; tok-typeName
+const num = 0;              // tok-operator; tok-number; tok-punctuation
+const str = \`ss\`;         // tok-string2
+
+type AnyType = string | number | boolean | null | undefined; // tok-keyword; tok-typeName
+
+const collapsePanel = () => {
+  const panel = ref.current;
+  if (panel) { 
+    panel.collapse(); // tok-variableName; tok-operator; tok-propertyName
+  }
+};
+
+<PanelGroup direction="horizontal">
+  <Panel collapsible ref={ref}> {/* tok-typeName; tok-propertyName */}
+    left
   </Panel>
 </PanelGroup>
 `;
