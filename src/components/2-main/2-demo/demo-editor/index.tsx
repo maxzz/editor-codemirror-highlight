@@ -83,7 +83,7 @@ export function EditorDemo() {
                     //     onResize={onResize}
                     //     sizes={sizes}
                     // />
-                    <div className="">Content goes here</div>
+                    <div className="">Example</div>
                 }
                 code={CODE}
                 language="tsx"

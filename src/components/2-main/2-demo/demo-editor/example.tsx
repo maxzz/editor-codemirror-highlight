@@ -24,12 +24,12 @@ export function Example({ code, exampleNode, headerNode, language = "jsx", title
 
             {headerNode}
 
-            <div className="mx-8 mt-4">
+            <div className="mx-8 my-4">
                 {exampleNode}
             </div>
 
             <Code
-                className="block p-4 whitespace-pre rounded-md overflow-x-auto"
+                className="block p-4 whitespace-pre rounded-md overflow-x-auto bg-zinc-800 dark:bg-zinc-800"
                 code={code.trim()}
                 language={language}
                 showLineNumbers
