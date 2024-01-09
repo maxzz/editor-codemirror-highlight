@@ -29,7 +29,7 @@ export function Example({ code, exampleNode, headerNode, language = "jsx", title
             </div>
 
             <Code
-                className="block p-4 whitespace-pre rounded-md overflow-x-auto bg-zinc-800 dark:bg-zinc-800"
+                className="block p-4 whitespace-pre rounded-md overflow-x-auto"
                 code={code.trim()}
                 language={language}
                 showLineNumbers

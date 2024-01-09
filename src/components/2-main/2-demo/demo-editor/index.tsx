@@ -1,6 +1,8 @@
 import { Code } from "@/components/ui/editor";
 import { Example } from "./example";
 
+type AnyType = string | number | boolean | null | undefined;
+
 const CODE = `
 import {
   ImperativePanelHandle,
@@ -9,7 +11,9 @@ import {
   PanelResizeHandle,
 } from "react-resizable-panels";
 
-const ref = useRef<ImperativePanelHandle>(null);
+const ref = useRef<ImperativePanelHandle>(null); // imperative API
+
+type AnyType = string | number | boolean | null | undefined;
 
 const collapsePanel = () => {
   const panel = ref.current;
