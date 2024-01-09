@@ -1,9 +1,9 @@
-.Route {
+/* .Route {
     margin: 0 auto;
     padding: 2rem;
     max-width: 1024px;
     overflow-x: hidden;
-}
+} */
 
 /* .Header {
     margin: 0 0 1rem;
@@ -21,28 +21,28 @@
     gap: 1ch;
 } */
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .Header {
         font-size: 1.4em;
     }
-}
+} */
 
-.Title {
+/* .Title {
     flex: 1 1 auto;
 
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-}
+} */
 
-.ExampleContainer {
+/* .ExampleContainer {
     margin: 2rem 0;
-}
+} */
 
-.Code {
+/* .Code {
     display: block;
     padding: 1rem;
     white-space: pre;
     border-radius: 1rem;
     overflow-x: auto;
-}
+} */
