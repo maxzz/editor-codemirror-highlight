@@ -42,7 +42,7 @@ const ref =                 // tok-variableName tok-definition
     useRef<ImperativePanelHandle> // tok-variableName; tok-typeName
         (null);             // tok-punctuation; tok-variableName; tok-typeName
 const num = 0;              // tok-operator; tok-number; tok-punctuation
-const str = \`ss\`;         // tok-string2
+const str = \`ss\`;           // tok-string2
 
 type AnyType = string | number | boolean | null | undefined; // tok-keyword; tok-typeName
 
