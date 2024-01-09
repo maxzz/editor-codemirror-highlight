@@ -7,7 +7,5 @@
 //  https://github.com/bvaughn/react-resizable-panels/blob/main/packages/react-resizable-panels-website/src/routes/examples/Example.tsx#L9
 
 import "./codemirror-root.css";
-import "./codemirror.css";
-
 export * from "./suspense/types";
 export * from "./code";

@@ -1,112 +1,77 @@
 :root {
-  /* --color-background-code: #050a15; */
-  /* --color-panel-background: #192230; */
+    --color-panel-background: #192230;
 
-  /* --color-background-default: #081120;
-  --color-brand: #dcadff;
-  --color-button-background: #2a3343;
-  --color-button-background-hover: #39414d;
-  --color-button-border: #18181a; */
+    --color-background-code: #050a15;
+    --color-code: #dcadff;
 
-  /* --color-code: #dcadff; */
-  
-  /* --color-default: #ffffff;
-  --color-dim: #91a0ba;
-  --color-horizontal-rule: #39414d;
-  --color-input: #ffffff;
-  --color-input-background: #18181a;
-  --color-input-border: #39414d;
-  --color-input-border-focused: #dcadff;
-  --color-link: #dcadff;
-  --color-panel-background: #192230;
-  --color-panel-background-alternate: #202124;
-  --color-solid-resize-bar: #39414d;
-  --color-scroll-thumb: #39414d;
-  --color-warning-background: #7400cc;
-
-  --color-logo-background: #2a3343;
-  --color-logo-chip-1: #dcadff;
-  --color-logo-chip-2: #ff79ad;
-  --color-logo-chip-3: #ffdc7a;
-  --color-logo-chip-4: #7ac1ff; */
-
-  --color-panel-background: #192230;
-
-  --color-background-code: #050a15;
-  --color-code: #dcadff;
-
-  --token-comment-color: #666;
-  --token-definition-color: #fefefe;
-  --token-local-color: #fefefe;
-  --token-keyword-color: #ff7aad;
-  --token-meta-color: #8237bb;
-  --token-number-color: #ffdc7a;
-  --token-operator-color: #fefefe;
-  --token-propertyName-color: #ff98eb;
-  --token-punctuation-color: #dcadff;
-  --token-string-color: #7ac1ff;
-  --token-string2-color: #7ac1ff;
-  --token-typeName-color: #c67bff;
-  --token-variableName-color: #c67bff;
-  --token-variableName2-color: #c67bff;
-}
-/* 
-:root,
-html,
-body,
-#root {
-  padding: 0;
-  margin: 0;
-
-  background-color: var(--color-background-default);
-  color: var(--color-default);
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+    --token-comment-color: #666;
+    --token-definition-color: #fefefe;
+    --token-local-color: #fefefe;
+    --token-keyword-color: #ff7aad;
+    --token-meta-color: #8237bb;
+    --token-number-color: #ffdc7a;
+    --token-operator-color: #fefefe;
+    --token-propertyName-color: #ff98eb;
+    --token-punctuation-color: #dcadff;
+    --token-string-color: #7ac1ff;
+    --token-string2-color: #7ac1ff;
+    --token-typeName-color: #c67bff;
+    --token-variableName-color: #c67bff;
+    --token-variableName2-color: #c67bff;
 }
 
-* {
-  box-sizing: border-box;
-  line-height: 1.5em;
+.tok-comment {
+    color: var(--token-comment-color);
 }
 
-p {
-  margin: 0.5rem 0;
+.tok-definition {
+    color: var(--token-definition-color);
 }
 
-code {
-  color: var(--color-code);
-  background-color: var(--color-background-code);
-  font-family: monospace;
-  padding: 0 0.25em;
-  border-radius: 0.25em;
+.tok-local {
+    color: var(--token-local-color);
 }
 
-h2 {
-  font-weight: normal;
-  margin: 0.5rem 0;
+.tok-keyword {
+    color: var(--token-keyword-color);
 }
 
-a {
-  color: var(--color-link);
+.tok-meta {
+    color: var(--token-meta-color);
 }
 
-::-webkit-scrollbar {
-  width: 0.75rem;
-  height: 0.75rem;
-  background: transparent;
+.tok-number {
+    color: var(--token-number-color);
 }
 
-::-webkit-scrollbar-corner {
-  background: transparent;
+.tok-operator {
+    color: var(--token-operator-color);
 }
 
-::-webkit-scrollbar-track {
-  border-radius: 0.75rem;
-  background: transparent;
+.tok-propertyName {
+    color: var(--token-propertyName-color);
 }
 
-::-webkit-scrollbar-thumb {
-  border-radius: 0.75rem;
-  background: var(--color-scroll-thumb);
-} */
+.tok-punctuation {
+    color: var(--token-punctuation-color);
+}
+
+.tok-string {
+    color: var(--token-string-color);
+}
+
+.tok-string2 {
+    color: var(--token-string2-color);
+}
+
+.tok-typeName {
+    color: var(--token-typeName-color);
+}
+
+.tok-variableName:not(.tok-definition) {
+    color: var(--token-variableName-color);
+}
+
+.tok-variableName2 {
+    color: var(--token-variableName2-color);
+}
